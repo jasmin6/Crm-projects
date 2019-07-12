@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.ComCast.FindDup_Opportunities.FindDup_Opportunities"/>
+      <class name="com.ComCast.FindDup_Opportunities.Opportunity_cancel_button"/>
+      <class name="com.ComCast.Export_Opportunities.Export_Oppertunities"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
